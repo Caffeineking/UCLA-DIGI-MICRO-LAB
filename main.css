@@ -10,11 +10,45 @@
     text-align: left; 
 } */
 
+.sticky-nav{
+    position: sticky;
+}
+
 .fixed-bg {
+    background-image: url("https://circuitboard.com/images/circuitboard-pcb-quote.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .wrapper{
+     display:grid;
+     grid-column-gap:1em;
+     grid-row-gap:1em;
+     grid-row-gap:1em;   
+ }
+
+ .wrapper > div {
+    background: #eee;
+    padding: 1em;
+ }
+ 
+ /* .wrapper > div:nth-child(odd){
+    background: #ddd;
+ } */
+
+ .new-bg-two{
+
     background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+ }
+ .new-bg-one{
+ background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
+    min-height: 500px;
  }
