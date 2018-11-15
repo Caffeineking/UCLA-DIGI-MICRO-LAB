@@ -15,7 +15,7 @@
 }
 
 .fixed-bg {
-    background-image: url("https://circuitboard.com/images/circuitboard-pcb-quote.jpg");
+    background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -35,13 +35,13 @@
     padding: 1em;
  }
  
- /* .wrapper > div:nth-child(odd){
+ .wrapper > div:nth-child(odd){
     background: #ddd;
- } */
+ }
 
  .new-bg-two{
 
-    background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
+    background-image: url("assets/cb.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
