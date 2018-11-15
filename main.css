@@ -1,4 +1,4 @@
-.carousel-caption {
+/* .carousel-caption {
     position: absolute;
      right: 0%; 
     bottom: 20px;
@@ -8,4 +8,13 @@
     padding-bottom: 20px;
 
     text-align: left; 
-}
+} */
+
+.fixed-bg {
+    background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
