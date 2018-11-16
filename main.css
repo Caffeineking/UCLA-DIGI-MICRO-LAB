@@ -10,9 +10,11 @@
     text-align: left; 
 } */
 
-.sticky-nav{
-    position: sticky;
-}
+.sticky-nav {
+    position:fixed;
+    top:0;
+    width: 100%;
+  }
 
 .fixed-bg {
     background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
@@ -52,3 +54,5 @@
  background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
     min-height: 500px;
  }
+
+ 
