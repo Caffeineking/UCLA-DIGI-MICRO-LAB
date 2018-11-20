@@ -14,16 +14,28 @@
     position:fixed;
     top:0;
     width: 100%;
+    z-index: 1;
   }
 
-.fixed-bg {
-    background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
+.containerForCarousel{
+    max-height:400px;
+}
+
+
+.third-bg {
+    background-image: url("./assets/1.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+.third-bg-button{
+  padding-top: 15%;
+  text-align: center;
+  
+}
 
  .wrapper{
      display:grid;
@@ -43,8 +55,8 @@
 
  .new-bg-two{
 
-    background-image: url("assets/cb.jpg");
-    min-height: 500px;
+    background-image: url("https://j.gifs.com/E9JN54.gif");
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,5 +66,13 @@
  background-image: url("https://www.mccormick.northwestern.edu/eecs/electrical-engineering/images/undergraduate/electrical-engineering-major.jpg");
     min-height: 500px;
  }
+ 
+ .card-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
 
  
+
+/* carousel css ends here */
