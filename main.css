@@ -69,10 +69,25 @@
  
  .card-container {
     margin: auto;
-    width: 50%;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.team-flexbox {
+    display: flex; /* or inline-flex */
+  }
+
+  .team-container {
+    width: 30%;
     padding: 10px;
 }
 
+.img-resize {
+    width:100px; /* you can use % */
+    height: auto;
+}
  
 
 /* carousel css ends here */
